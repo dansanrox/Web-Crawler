@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+	
+body {
+    font-family: 'Open Sans', Tahoma, Arial, helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.6em;
+    font-weight: 400;
+    color: #333;
+	
+	
+}	
+body, html {
+    background: transparent;
+    padding: 0;
+    position: relative;
+    height: 100%;
+    margin: 0;
+}
+div#grayLayer{
+	position: fixed;
+    width: 100%;
+    height: 100%;
+     background:rgba(0,0 ,0 , 0.8);
+    background-size: cover;
+    background-repeat: no-repeat;
+	z-index:-1;
+}
+div.header{
+	width:100%;
+	height:50px;
+	margin-bottom:20px;
+	
+
+}
+
+.header h3{
+	margin:0px;
+	float:right;
+	padding:10px;
+	
+}
+.header h5{
+
+	margin:0px;
+	float:right;
+	padding:10px;
+}
+
+.header h5 a{
+	text-decoration:none;
+	color:#009595;
+}
+.header h5 a:hover, 
+.header h5 a:focus, 
+.header h5 a:active,
+.open > .dropdown-toggle.btn-primary  
+{
+    color: #01c0c0;
+}
+
+.header h3 a{
+
+	text-decoration:none;
+	color:#009595;
+
+}
+.header h3 a:hover, 
+.header h3 a:focus, 
+.header h3 a:active,
+.open > .dropdown-toggle.btn-primary  
+{
+    color: #01c0c0;
+}
+
+
+
+div.logo{
+	margin:auto;
+	border:10px;
+
+}
+div.searchBox{
+
+	width:40%;
+	margin:auto;
+	position:relative;
+
+}
+
+.searchBar{
+	height:20px;
+	padding:6px 12px;
+	border-radius: 5px;
+	outline: 0;
+	background-color: #E6FFFF;
+	border: 1px solid rgba(250, 250, 250, 0.9);		
+}
+.searchBtn{
+	right:50px;
+	padding:9.5px 21px;
+	position:absolute;
+	border-radius: 5px;
+	outline: 0;
+	background-color: #009595;
+    border: 1px solid #009595;
+    color: #fff;	
+}
+
+.searchBtn:hover, 
+.searchBtny:focus, 
+.searchBtn:active, 
+.open > .dropdown-toggle.btn-primary {
+    background-color: #01c0c0;
+    border: 1px solid #01c0c0;
+    color: #fff;
+}
+
+
+/******IMAGES SEARCH****/
+.imgHolder{
+
+	float:left;
+	margin:10px;
+	border: 1px solid black;
+	
+
+}
+
